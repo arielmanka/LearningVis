@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Visualizer - Grade 4</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="sidebar">
+        <div class="logo">
+          <h1>Math Viz</h1>
+        </div>
+        <ul class="nav-links">
+          <li><button data-topic="welcome" class="active">Welcome</button></li>
+          <li><button data-topic="mean-mode-median">Mean, Mode, Median</button></li>
+          <li><button data-topic="fractions">Fractions</button></li>
+        </ul>
+      </nav>
+      <main class="content-area">
+        <div id="content">
+          <!-- Dynamic Content Loaded Here -->
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
